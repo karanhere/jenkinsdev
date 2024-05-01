@@ -51,11 +51,11 @@ pipeline {
         }
     }
 
-    post {
+    /*post {
         always {
             cleanWs()
         }
-    }
+    }*/
 }
 
 String getBuildVersion() {
