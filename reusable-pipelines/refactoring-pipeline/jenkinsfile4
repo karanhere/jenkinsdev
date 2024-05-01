@@ -46,6 +46,7 @@ pipeline {
             // }
 
             steps {
+                bat 'cd'
                 archiveArtifacts('**/*.war')
             }
         }
